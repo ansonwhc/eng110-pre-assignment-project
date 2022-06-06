@@ -1,2 +1,3 @@
 # eng110-pre-assignment-project
-Sparta Global Preassignment Project
+Sparta Global Preassignment Project  
+- Jenkins CI test
