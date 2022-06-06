@@ -11,5 +11,4 @@ WORKDIR /usr/src/app
 EXPOSE 80
 
 # launch the app run this command at the end
-RUN systemctl start nginx
-RUN systemctl enable nginx
+CMD ["nginx", "-g", "daemon off;"]
